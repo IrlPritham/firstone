@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pritham's Build</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            align-items: center;
+            background-color: #1a1a1a;
+            padding: 20px 30px;
+            border-bottom: 2px solid #333;
+        }
+
+        .logo {
+            width: 150px;
+            height: 80px;
+            background-color: #2a2a2a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 30px;
+        }
+
+        .logo img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            color: #ffffff;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        /* Menu */
+        .menu {
+            background-color: #1a1a1a;
+            padding: 18px 0;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+
+        .menu ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .menu a {
+            color: #b0b0b0;
+            text-decoration: none;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+        }
+
+        .menu a:hover {
+            color: #ffffff;
+        }
+
+        /* Sections Container */
+        .sections {
+            display: flex;
+            border-bottom: 1px solid #333;
+        }
+
+        .section {
+            flex: 1;
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #1a1a1a;
+            border-right: 1px solid #333;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            color: #ffffff;
+            font-weight: 300;
+        }
+
+        .section:last-child {
+            border-right: none;
+        }
+
+        /* Main Content Area */
+        .main-content {
+            display: flex;
+        }
+
+        .page-contents {
+            flex: 3;
+            padding: 40px;
+            background-color: #0f0f0f;
+            line-height: 1.8;
+        }
+
+        .page-contents h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #ffffff;
+            font-weight: 300;
+        }
+
+        .page-contents p {
+            font-size: 15px;
+            color: #c0c0c0;
+            margin-bottom: 12px;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            flex: 1;
+            background-color: #1a1a1a;
+            padding: 40px 25px;
+            border-left: 1px solid #333;
+        }
+
+        .sidebar h2 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: #ffffff;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .specs-list {
+            list-style: none;
+        }
+
+        .specs-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #2a2a2a;
+            font-size: 13px;
+            color: #b0b0b0;
+        }
+
+        .specs-list strong {
+            color: #ffffff;
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #1a1a1a;
+            padding: 25px;
+            text-align: center;
+            border-top: 2px solid #333;
+        }
+
+        .footer p {
+            color: #808080;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">
+            <img src="image.jpg" alt="Logo">
+        </div>
+        <h1>Pritham's Build</h1>
+    </div>
+
+    <!-- Menu -->
+    <nav class="menu">
+        <ul>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#progress">Progress</a></li>
+            <li><a href="#contribute">Contribute</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sections -->
+    <div class="sections">
+        <div class="section">
+            <h2>Modification</h2>
+        </div>
+        <div class="section">
+            <h2>Aesthetics</h2>
+        </div>
+        <div class="section">
+            <h2>Tuning</h2>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="page-contents">
+            <h2>My Dream Build</h2>
+            <p>I'd build my dream 765RS to be clean, dark, and practical for everyday riding.</p>
+            <p>A matte black or deep grey wrap with minimal decals to keep it stealthy.</p>
+            <p>Softer seat foam and a wider pillion seat so my wife feels comfortable on longer rides.</p>
+            <p>Raised handlebars just a bit, for a relaxed posture in city traffic.</p>
+            <p>Slightly tuned suspension—not track stiff, but smooth over Indian roads.</p>
+            <p>Full-system exhaust, but not too loud, because peace matters on daily rides.</p>
+            <p>Better mirrors and subtle LED indicators for a neat look.</p>
+            <p>Tank grips for control, especially when riding with my wife.</p>
+            <p>Good quality tyres that handle rain, heat, and bad roads well.</p>
+            <p>A bike that looks aggressive, rides easy, and keeps both of us happy every day.</p>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>765 RS Specs</h2>
+            <ul class="specs-list">
+                <li><strong>Engine</strong> 765cc Inline 3-cylinder</li>
+                <li><strong>Power</strong> 130 PS @ 12,000 rpm</li>
+                <li><strong>Torque</strong> 80 Nm @ 9,500 rpm</li>
+                <li><strong>Weight</strong> 188 kg (wet)</li>
+                <li><strong>Fuel Tank</strong> 15 L</li>
+                <li><strong>Seat Height</strong> 836 mm</li>
+                <li><strong>Front Brakes</strong> Twin 310mm Brembo Stylema</li>
+                <li><strong>Rear Brake</strong> Single 220mm disc</li>
+                <li><strong>Front Suspension</strong> Showa 41mm USD forks</li>
+                <li><strong>Rear Suspension</strong> Öhlins STX40 monoshock</li>
+                <li><strong>Display</strong> 5" Full colour TFT</li>
+                <li><strong>Gearbox</strong> 6-speed</li>
+                <li><strong>Wheelbase</strong> 1399 mm</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>All rights received. Made with passion and patience</p>
+    </div>
+</body>
+</html>
